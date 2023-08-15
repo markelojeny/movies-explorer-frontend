@@ -1,0 +1,93 @@
+.icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 4;
+}
+
+.icon__container {
+    width: 67.7%;
+    background-color: #fff;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+    z-index: 3;
+}
+
+.icon__button {
+    position: absolute;
+    top: 29px;
+    right: 29px;
+    padding: 0;
+    margin: 0 auto;
+    border: none;
+    width: 18px;
+    height: 18px;
+    background: url(../../../../images/big_krest.svg) center / 170% #fff no-repeat;
+}
+
+.icon__group {
+    height: 80vh;
+    padding-top: 50px;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icon__links {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+}
+.icon__link {
+    width: fit-content;
+    padding: 0;
+    margin: 28px 0 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.icon__link_active {
+    border-bottom: 2px #000 solid;
+}
+
+@media screen and (max-width: 320px) {
+    .icon__container {
+        width: 100%;
+    }
+
+    .icon__group {
+        height: 82vh;
+    }
+
+    .icon__links {
+        margin-top: 34px;
+    }
+
+    .icon__link {
+        margin: 17px 0 7px;
+    }
+
+    .header__login {
+        width: 54px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .icon__link_active {
+        margin: 0;
+        padding: 17px 0 7px;
+    }
+}

@@ -1,0 +1,75 @@
+.card {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__picture {
+    width: 100%;
+    height: max-content;
+    margin: 0 0 14px;
+}
+
+.card__group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(170, 170, 170, 0.2);
+    padding: 0 0 28px;
+}
+
+.card__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.card__like {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: url(../../../images/like.svg) center no-repeat #F9F9F9;
+}
+
+.card__favorites {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #fff;
+}
+
+.card__favorites:hover {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: url(../../../images/krest.svg) center no-repeat #F9F9F9;
+}
+
+.card__duration {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #A0A0A0;
+    margin: 6px 0 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .card__title {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
