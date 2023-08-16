@@ -15,23 +15,16 @@ function Portfolio() {
             <h4 className="portfolio__title">Портфолио</h4>
             {links.map((link, i) => (
                 <React.Fragment key={i}>
-                    <div className="portfolio__group">
-                        <a
-                            className="portfolio__link"
-                            href={link.url}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
+                    <a 
+                    className="portfolio__group"
+                    href={link.url}
+                    target="_blank"
+                    rel="noreferrer">
+                        <p className="portfolio__link">
                             {link.title}
-                        </a>
-                        <a
-                            className="portfolio__picture"
-                            href={link.url}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                        </a>
-                    </div>
+                        </p>
+                        <p className="portfolio__picture"></p>
+                    </a>
                 </React.Fragment>
             ))}
         </section>

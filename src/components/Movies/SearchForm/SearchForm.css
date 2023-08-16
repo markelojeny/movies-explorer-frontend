@@ -9,7 +9,7 @@
 }
 
 .form__search {
-    width: 932px;
+    width: 81.49%;
     height: 46px;
     border-radius: 30px;
     border: 1.5px solid rgba(170, 170, 170, 0.2);
@@ -30,12 +30,18 @@
     border: none;
     border-radius: 50%;
     background: url(../../../images/search.svg) center no-repeat #000;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    opacity: 0.8;
 }
 
 .shortmovies {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0 0 0 15px;
 }
 
 .shortmovies__title {
@@ -67,6 +73,7 @@
     }
 
     .shortmovies {
+        margin-left: 0;
         margin-top: 22px;
         justify-content: center;
     }

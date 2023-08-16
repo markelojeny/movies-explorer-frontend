@@ -1,4 +1,4 @@
-.header__group_screen_normal {
+.header__group_width_normal {
     width: 96px;
     height: 27px;
     display: flex;
@@ -9,7 +9,7 @@
     cursor: pointer;
 }
 
-.header__group_screen_small {
+.header__group_width_small {
     display: none;
 }
 
@@ -32,11 +32,11 @@
 }
 
 @media screen and (max-width: 768px) {
-    .header__group_screen_normal {
+    .header__group_width_normal {
         display: none;
     }
 
-    .header__group_screen_small {
+    .header__group_width_small {
         margin: 0 auto;
         width: 96px;
         height: 28px;

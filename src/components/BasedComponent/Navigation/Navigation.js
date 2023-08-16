@@ -54,7 +54,7 @@ function Navigation() {
                     <p className="header__movie header__movie_type_active" onClick={handleClickMovie}>Фильмы</p>
                     <p className="header__movie" onClick={handleClickSavedMovie}>Сохранённые фильмы</p>
                 </nav>
-                <AccountButton className="header__group_screen_normal" />
+                <AccountButton className="header__group_width_normal" />
                 {!iconOpen ? (
                     <img
                         className="header__picture"

@@ -79,7 +79,16 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
+    .techs__list {
+        width: 55.63%;
+        padding: 50px 0 75px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 470px) {
     .techs {
         background-color: #fff;
     }
@@ -94,13 +103,6 @@
         width: 91.25%;
         font-size: 11px;
         line-height: 16px;
-    }
-
-    .techs__list {
-        width: 55.63%;
-        padding: 50px 0 75px;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
     }
 
     .techs__paragraph {

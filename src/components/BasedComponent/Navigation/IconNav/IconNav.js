@@ -29,7 +29,7 @@ function IconNav(props) {
                         <p className='icon__link icon__link_active' onClick={handleClickMovie}>Фильмы</p>
                         <p className='icon__link' onClick={handleClickSavedMovie}>Сохранённые фильмы</p>
                     </div>
-                    <AccountButton className="header__group_screen_small" />
+                    <AccountButton className="header__group_width_small" />
                 </div>
             </div>
         </div>
