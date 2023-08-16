@@ -50,20 +50,21 @@ function MoviesCardList() {
           movieCard={movie.movieCard}
         />
     ));
-    }
-    return (
-      <section className="cards">
-        <div className="cards__container">
-          {location.pathname === '/movies'
-            ? moviesRender(movies)
-            : moviesRender(savedMovies)
-          }
-        </div>
-        {elseButton && (
-          <button className="cards__button" type="button">Ещё</button>
-        )}
-      </section>
-    );
+  }
+
+  return (
+    <section className="cards">
+      <div className="cards__container">
+        {location.pathname === '/movies'
+          ? moviesRender(movies)
+          : moviesRender(savedMovies)
+        }
+      </div>
+      {elseButton && (
+        <button className="cards__button" type="button">Ещё</button>
+      )}
+    </section>
+  );
 }
 
 export default MoviesCardList;
