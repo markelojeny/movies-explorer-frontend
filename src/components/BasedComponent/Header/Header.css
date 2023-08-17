@@ -1,0 +1,45 @@
+.header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__type_sign {
+    width: 30.9%;
+    margin-top: 70px;
+}
+
+.header__type_page {
+    width: 89.1%;
+    margin-top: 18px;
+}
+
+.header__logo {
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .header__type_page {
+        width: 92.19%;
+        margin-top: 18px;
+    }
+
+    .header__type_sign {
+        width: 51.56%;
+        margin-top: 230px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__type_page {
+        width: 91.25%;
+    }
+
+    .header__type_sign {
+        width: 38px;
+        margin-top: 56px;
+    }
+}
