@@ -1,5 +1,4 @@
 .promo__buttons {
-    width: 25.5277%;
     margin: 0 auto;
     padding: 0 0 30px;
     display: grid;
@@ -25,15 +24,8 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-    .promo__buttons {
-        width: 40.1%;
-    }
-}
-
 @media screen and (max-width: 470px) {
     .promo__buttons {
-        width: 88.36%;
         gap: 6px;
         padding-bottom: 17px;
     }
